@@ -1,2 +1,4 @@
-<img width="1440" alt="Screenshot 2022-03-11 at 1 32 53 AM" src="https://user-images.githubusercontent.com/16819523/157758482-e57d64f7-44a7-4668-aec7-f1ff62d330b5.png">
 # AndroidMid
+Today Practise
+### Relative Layout + Linear Layout
+<img width="1440" alt="Screenshot 2022-03-11 at 3 33 19 AM" src="https://user-images.githubusercontent.com/16819523/157758701-5d5f6c03-bbcf-4052-9a88-7c0aa1e58985.png">
