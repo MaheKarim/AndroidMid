@@ -2,27 +2,30 @@ package com.mahekarim.midpractice;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Window;
-import android.widget.Button;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText edit1, edit2 ;
-    TextView textResult ;
-    Button btn1 ;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-//        edit1 = (EditText)findViewById(R.id.edit1);
-//        edit2 = (EditText)findViewById(R.id.edit2);
-//        textResult = (TextView)findViewById(R.id.textResult);
-//        btn1 = (Button)findViewById(R.id.btn1);
-
-
     }
+
+    public void addNumber(View v) {
+
+       EditText edit1 = (EditText)findViewById(R.id.edit1);
+       EditText edit2 = (EditText)findViewById(R.id.edit2);
+       TextView textResult = (TextView)findViewById(R.id.textResult);
+
+       Integer n1 = Integer.parseInt(edit1.getText().toString());
+       Integer n2 = Integer.parseInt(edit2.getText().toString());
+
+       Integer result = n1 + n2 ;
+
+       textResult.setText(Integer.toString(result));
+    }
+
 }
